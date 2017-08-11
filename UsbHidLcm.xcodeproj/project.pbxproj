@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353ECCC71F3D54010026CD07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECCC61F3D54010026CD07 /* AppDelegate.m */; };
+		353ECCCA1F3D54010026CD07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECCC91F3D54010026CD07 /* main.m */; };
+		353ECCCC1F3D54010026CD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353ECCCB1F3D54010026CD07 /* Assets.xcassets */; };
+		353ECCCF1F3D54010026CD07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353ECCCD1F3D54010026CD07 /* MainMenu.xib */; };
+		353ECCDA1F3D54010026CD07 /* UsbHidLcmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECCD91F3D54010026CD07 /* UsbHidLcmTests.m */; };
+		353ECCE51F3D54010026CD07 /* UsbHidLcmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECCE41F3D54010026CD07 /* UsbHidLcmUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		353ECCD61F3D54010026CD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353ECCBA1F3D54010026CD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353ECCC11F3D54010026CD07;
+			remoteInfo = UsbHidLcm;
+		};
+		353ECCE11F3D54010026CD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353ECCBA1F3D54010026CD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353ECCC11F3D54010026CD07;
+			remoteInfo = UsbHidLcm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		353ECCC21F3D54010026CD07 /* UsbHidLcm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsbHidLcm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353ECCC51F3D54010026CD07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		353ECCC61F3D54010026CD07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		353ECCC91F3D54010026CD07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		353ECCCB1F3D54010026CD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353ECCCE1F3D54010026CD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		353ECCD01F3D54010026CD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353ECCD51F3D54010026CD07 /* UsbHidLcmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsbHidLcmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353ECCD91F3D54010026CD07 /* UsbHidLcmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsbHidLcmTests.m; sourceTree = "<group>"; };
+		353ECCDB1F3D54010026CD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353ECCE01F3D54010026CD07 /* UsbHidLcmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsbHidLcmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353ECCE41F3D54010026CD07 /* UsbHidLcmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsbHidLcmUITests.m; sourceTree = "<group>"; };
+		353ECCE61F3D54010026CD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353ECCBF1F3D54010026CD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCD21F3D54010026CD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCDD1F3D54010026CD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353ECCB91F3D54000026CD07 = {
+			isa = PBXGroup;
+			children = (
+				353ECCC41F3D54010026CD07 /* UsbHidLcm */,
+				353ECCD81F3D54010026CD07 /* UsbHidLcmTests */,
+				353ECCE31F3D54010026CD07 /* UsbHidLcmUITests */,
+				353ECCC31F3D54010026CD07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353ECCC31F3D54010026CD07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353ECCC21F3D54010026CD07 /* UsbHidLcm.app */,
+				353ECCD51F3D54010026CD07 /* UsbHidLcmTests.xctest */,
+				353ECCE01F3D54010026CD07 /* UsbHidLcmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353ECCC41F3D54010026CD07 /* UsbHidLcm */ = {
+			isa = PBXGroup;
+			children = (
+				353ECCC51F3D54010026CD07 /* AppDelegate.h */,
+				353ECCC61F3D54010026CD07 /* AppDelegate.m */,
+				353ECCCB1F3D54010026CD07 /* Assets.xcassets */,
+				353ECCCD1F3D54010026CD07 /* MainMenu.xib */,
+				353ECCD01F3D54010026CD07 /* Info.plist */,
+				353ECCC81F3D54010026CD07 /* Supporting Files */,
+			);
+			path = UsbHidLcm;
+			sourceTree = "<group>";
+		};
+		353ECCC81F3D54010026CD07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				353ECCC91F3D54010026CD07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		353ECCD81F3D54010026CD07 /* UsbHidLcmTests */ = {
+			isa = PBXGroup;
+			children = (
+				353ECCD91F3D54010026CD07 /* UsbHidLcmTests.m */,
+				353ECCDB1F3D54010026CD07 /* Info.plist */,
+			);
+			path = UsbHidLcmTests;
+			sourceTree = "<group>";
+		};
+		353ECCE31F3D54010026CD07 /* UsbHidLcmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				353ECCE41F3D54010026CD07 /* UsbHidLcmUITests.m */,
+				353ECCE61F3D54010026CD07 /* Info.plist */,
+			);
+			path = UsbHidLcmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353ECCC11F3D54010026CD07 /* UsbHidLcm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353ECCE91F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcm" */;
+			buildPhases = (
+				353ECCBE1F3D54010026CD07 /* Sources */,
+				353ECCBF1F3D54010026CD07 /* Frameworks */,
+				353ECCC01F3D54010026CD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsbHidLcm;
+			productName = UsbHidLcm;
+			productReference = 353ECCC21F3D54010026CD07 /* UsbHidLcm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353ECCD41F3D54010026CD07 /* UsbHidLcmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353ECCEC1F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmTests" */;
+			buildPhases = (
+				353ECCD11F3D54010026CD07 /* Sources */,
+				353ECCD21F3D54010026CD07 /* Frameworks */,
+				353ECCD31F3D54010026CD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353ECCD71F3D54010026CD07 /* PBXTargetDependency */,
+			);
+			name = UsbHidLcmTests;
+			productName = UsbHidLcmTests;
+			productReference = 353ECCD51F3D54010026CD07 /* UsbHidLcmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		353ECCDF1F3D54010026CD07 /* UsbHidLcmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353ECCEF1F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmUITests" */;
+			buildPhases = (
+				353ECCDC1F3D54010026CD07 /* Sources */,
+				353ECCDD1F3D54010026CD07 /* Frameworks */,
+				353ECCDE1F3D54010026CD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353ECCE21F3D54010026CD07 /* PBXTargetDependency */,
+			);
+			name = UsbHidLcmUITests;
+			productName = UsbHidLcmUITests;
+			productReference = 353ECCE01F3D54010026CD07 /* UsbHidLcmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353ECCBA1F3D54010026CD07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Yuan;
+				TargetAttributes = {
+					353ECCC11F3D54010026CD07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					353ECCD41F3D54010026CD07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 353ECCC11F3D54010026CD07;
+					};
+					353ECCDF1F3D54010026CD07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 353ECCC11F3D54010026CD07;
+					};
+				};
+			};
+			buildConfigurationList = 353ECCBD1F3D54010026CD07 /* Build configuration list for PBXProject "UsbHidLcm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353ECCB91F3D54000026CD07;
+			productRefGroup = 353ECCC31F3D54010026CD07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353ECCC11F3D54010026CD07 /* UsbHidLcm */,
+				353ECCD41F3D54010026CD07 /* UsbHidLcmTests */,
+				353ECCDF1F3D54010026CD07 /* UsbHidLcmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353ECCC01F3D54010026CD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353ECCCC1F3D54010026CD07 /* Assets.xcassets in Resources */,
+				353ECCCF1F3D54010026CD07 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCD31F3D54010026CD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCDE1F3D54010026CD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353ECCBE1F3D54010026CD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353ECCCA1F3D54010026CD07 /* main.m in Sources */,
+				353ECCC71F3D54010026CD07 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCD11F3D54010026CD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353ECCDA1F3D54010026CD07 /* UsbHidLcmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCDC1F3D54010026CD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353ECCE51F3D54010026CD07 /* UsbHidLcmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		353ECCD71F3D54010026CD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353ECCC11F3D54010026CD07 /* UsbHidLcm */;
+			targetProxy = 353ECCD61F3D54010026CD07 /* PBXContainerItemProxy */;
+		};
+		353ECCE21F3D54010026CD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353ECCC11F3D54010026CD07 /* UsbHidLcm */;
+			targetProxy = 353ECCE11F3D54010026CD07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		353ECCCD1F3D54010026CD07 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353ECCCE1F3D54010026CD07 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		353ECCE71F3D54010026CD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		353ECCE81F3D54010026CD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		353ECCEA1F3D54010026CD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		353ECCEB1F3D54010026CD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		353ECCED1F3D54010026CD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsbHidLcm.app/Contents/MacOS/UsbHidLcm";
+			};
+			name = Debug;
+		};
+		353ECCEE1F3D54010026CD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsbHidLcm.app/Contents/MacOS/UsbHidLcm";
+			};
+			name = Release;
+		};
+		353ECCF01F3D54010026CD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UsbHidLcm;
+			};
+			name = Debug;
+		};
+		353ECCF11F3D54010026CD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UsbHidLcm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353ECCBD1F3D54010026CD07 /* Build configuration list for PBXProject "UsbHidLcm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353ECCE71F3D54010026CD07 /* Debug */,
+				353ECCE81F3D54010026CD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353ECCE91F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353ECCEA1F3D54010026CD07 /* Debug */,
+				353ECCEB1F3D54010026CD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		353ECCEC1F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353ECCED1F3D54010026CD07 /* Debug */,
+				353ECCEE1F3D54010026CD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		353ECCEF1F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353ECCF01F3D54010026CD07 /* Debug */,
+				353ECCF11F3D54010026CD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353ECCBA1F3D54010026CD07 /* Project object */;
+}
