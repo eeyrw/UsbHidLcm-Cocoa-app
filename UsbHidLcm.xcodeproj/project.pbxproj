@@ -13,6 +13,11 @@
 		353ECCCF1F3D54010026CD07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353ECCCD1F3D54010026CD07 /* MainMenu.xib */; };
 		353ECCDA1F3D54010026CD07 /* UsbHidLcmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECCD91F3D54010026CD07 /* UsbHidLcmTests.m */; };
 		353ECCE51F3D54010026CD07 /* UsbHidLcmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECCE41F3D54010026CD07 /* UsbHidLcmUITests.m */; };
+		353ECCF81F3D568E0026CD07 /* UsbHidLcmDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECCF71F3D568E0026CD07 /* UsbHidLcmDevice.m */; };
+		353ECCFB1F3D5A800026CD07 /* usbhid.m in Sources */ = {isa = PBXBuildFile; fileRef = 353ECCFA1F3D5A800026CD07 /* usbhid.m */; };
+		9F97C124CB635F811A56A0F5 /* libPods-UsbHidLcm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0C9972197146B81F1FD34D /* libPods-UsbHidLcm.a */; };
+		B983F4B2FD2DC6CA033DAEA4 /* libPods-UsbHidLcmUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D9410092E372C58A8340A8 /* libPods-UsbHidLcmUITests.a */; };
+		E2E93CD02A4592CA876B9B34 /* libPods-UsbHidLcmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23973C24900A85DCAF7B3241 /* libPods-UsbHidLcmTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FC3DA2F60BE32520FDE5C49 /* Pods-UsbHidLcm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsbHidLcm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsbHidLcm/Pods-UsbHidLcm.debug.xcconfig"; sourceTree = "<group>"; };
+		23973C24900A85DCAF7B3241 /* libPods-UsbHidLcmTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UsbHidLcmTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		353ECCC21F3D54010026CD07 /* UsbHidLcm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsbHidLcm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353ECCC51F3D54010026CD07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		353ECCC61F3D54010026CD07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +53,17 @@
 		353ECCE01F3D54010026CD07 /* UsbHidLcmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsbHidLcmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		353ECCE41F3D54010026CD07 /* UsbHidLcmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsbHidLcmUITests.m; sourceTree = "<group>"; };
 		353ECCE61F3D54010026CD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353ECCF61F3D56440026CD07 /* UsbHidLcmDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsbHidLcmDevice.h; sourceTree = "<group>"; };
+		353ECCF71F3D568E0026CD07 /* UsbHidLcmDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsbHidLcmDevice.m; sourceTree = "<group>"; };
+		353ECCF91F3D5A800026CD07 /* usbhid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usbhid.h; sourceTree = "<group>"; };
+		353ECCFA1F3D5A800026CD07 /* usbhid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = usbhid.m; sourceTree = "<group>"; };
+		6D0C9972197146B81F1FD34D /* libPods-UsbHidLcm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UsbHidLcm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844142015CE35BA33F56E6B4 /* Pods-UsbHidLcmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsbHidLcmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsbHidLcmUITests/Pods-UsbHidLcmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95D9410092E372C58A8340A8 /* libPods-UsbHidLcmUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UsbHidLcmUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E92966E6FE718F1557A669 /* Pods-UsbHidLcmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsbHidLcmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsbHidLcmUITests/Pods-UsbHidLcmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8F937F7420B171D485D346C /* Pods-UsbHidLcmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsbHidLcmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsbHidLcmTests/Pods-UsbHidLcmTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA49D217DF2A3543BA083EA3 /* Pods-UsbHidLcm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsbHidLcm.release.xcconfig"; path = "Pods/Target Support Files/Pods-UsbHidLcm/Pods-UsbHidLcm.release.xcconfig"; sourceTree = "<group>"; };
+		FA7F20B4681DA155E6481005 /* Pods-UsbHidLcmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsbHidLcmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UsbHidLcmTests/Pods-UsbHidLcmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F97C124CB635F811A56A0F5 /* libPods-UsbHidLcm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E93CD02A4592CA876B9B34 /* libPods-UsbHidLcmTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B983F4B2FD2DC6CA033DAEA4 /* libPods-UsbHidLcmUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +101,8 @@
 				353ECCD81F3D54010026CD07 /* UsbHidLcmTests */,
 				353ECCE31F3D54010026CD07 /* UsbHidLcmUITests */,
 				353ECCC31F3D54010026CD07 /* Products */,
+				4D1007E1FCB131215C287985 /* Pods */,
+				CC673E485D176FDEE83740D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,10 @@
 		353ECCC41F3D54010026CD07 /* UsbHidLcm */ = {
 			isa = PBXGroup;
 			children = (
+				353ECCF91F3D5A800026CD07 /* usbhid.h */,
+				353ECCFA1F3D5A800026CD07 /* usbhid.m */,
+				353ECCF71F3D568E0026CD07 /* UsbHidLcmDevice.m */,
+				353ECCF61F3D56440026CD07 /* UsbHidLcmDevice.h */,
 				353ECCC51F3D54010026CD07 /* AppDelegate.h */,
 				353ECCC61F3D54010026CD07 /* AppDelegate.m */,
 				353ECCCB1F3D54010026CD07 /* Assets.xcassets */,
@@ -132,6 +159,29 @@
 			path = UsbHidLcmUITests;
 			sourceTree = "<group>";
 		};
+		4D1007E1FCB131215C287985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FC3DA2F60BE32520FDE5C49 /* Pods-UsbHidLcm.debug.xcconfig */,
+				FA49D217DF2A3543BA083EA3 /* Pods-UsbHidLcm.release.xcconfig */,
+				FA7F20B4681DA155E6481005 /* Pods-UsbHidLcmTests.debug.xcconfig */,
+				E8F937F7420B171D485D346C /* Pods-UsbHidLcmTests.release.xcconfig */,
+				E4E92966E6FE718F1557A669 /* Pods-UsbHidLcmUITests.debug.xcconfig */,
+				844142015CE35BA33F56E6B4 /* Pods-UsbHidLcmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC673E485D176FDEE83740D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C9972197146B81F1FD34D /* libPods-UsbHidLcm.a */,
+				23973C24900A85DCAF7B3241 /* libPods-UsbHidLcmTests.a */,
+				95D9410092E372C58A8340A8 /* libPods-UsbHidLcmUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353ECCE91F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcm" */;
 			buildPhases = (
+				93E091FD8A7724394856A21D /* [CP] Check Pods Manifest.lock */,
 				353ECCBE1F3D54010026CD07 /* Sources */,
 				353ECCBF1F3D54010026CD07 /* Frameworks */,
 				353ECCC01F3D54010026CD07 /* Resources */,
+				84A5E37B83308597CA2F3BD0 /* [CP] Embed Pods Frameworks */,
+				9E6B725F8D495808CAC7CBD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353ECCEC1F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmTests" */;
 			buildPhases = (
+				EE1AA34B57585ACB5AAC9063 /* [CP] Check Pods Manifest.lock */,
 				353ECCD11F3D54010026CD07 /* Sources */,
 				353ECCD21F3D54010026CD07 /* Frameworks */,
 				353ECCD31F3D54010026CD07 /* Resources */,
+				529074BA6F12BD4E06F16C6B /* [CP] Embed Pods Frameworks */,
+				F00FFA91E9913647CBDE4459 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353ECCEF1F3D54010026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmUITests" */;
 			buildPhases = (
+				819EC4ED5AD489E388F5647A /* [CP] Check Pods Manifest.lock */,
 				353ECCDC1F3D54010026CD07 /* Sources */,
 				353ECCDD1F3D54010026CD07 /* Frameworks */,
 				353ECCDE1F3D54010026CD07 /* Resources */,
+				31812428A31CAB4B5D6DD17C /* [CP] Embed Pods Frameworks */,
+				16E0AC62FA4826EC2328197D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +318,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16E0AC62FA4826EC2328197D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsbHidLcmUITests/Pods-UsbHidLcmUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31812428A31CAB4B5D6DD17C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsbHidLcmUITests/Pods-UsbHidLcmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529074BA6F12BD4E06F16C6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsbHidLcmTests/Pods-UsbHidLcmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		819EC4ED5AD489E388F5647A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UsbHidLcmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84A5E37B83308597CA2F3BD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsbHidLcm/Pods-UsbHidLcm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E091FD8A7724394856A21D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UsbHidLcm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6B725F8D495808CAC7CBD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsbHidLcm/Pods-UsbHidLcm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1AA34B57585ACB5AAC9063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UsbHidLcmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00FFA91E9913647CBDE4459 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UsbHidLcmTests/Pods-UsbHidLcmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		353ECCBE1F3D54010026CD07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -266,6 +472,8 @@
 			files = (
 				353ECCCA1F3D54010026CD07 /* main.m in Sources */,
 				353ECCC71F3D54010026CD07 /* AppDelegate.m in Sources */,
+				353ECCFB1F3D5A800026CD07 /* usbhid.m in Sources */,
+				353ECCF81F3D568E0026CD07 /* UsbHidLcmDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +609,7 @@
 		};
 		353ECCEA1F3D54010026CD07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC3DA2F60BE32520FDE5C49 /* Pods-UsbHidLcm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -413,6 +622,7 @@
 		};
 		353ECCEB1F3D54010026CD07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA49D217DF2A3543BA083EA3 /* Pods-UsbHidLcm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -425,6 +635,7 @@
 		};
 		353ECCED1F3D54010026CD07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7F20B4681DA155E6481005 /* Pods-UsbHidLcmTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -438,6 +649,7 @@
 		};
 		353ECCEE1F3D54010026CD07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F937F7420B171D485D346C /* Pods-UsbHidLcmTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -451,6 +663,7 @@
 		};
 		353ECCF01F3D54010026CD07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E92966E6FE718F1557A669 /* Pods-UsbHidLcmUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UsbHidLcmUITests/Info.plist;
@@ -463,6 +676,7 @@
 		};
 		353ECCF11F3D54010026CD07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844142015CE35BA33F56E6B4 /* Pods-UsbHidLcmUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UsbHidLcmUITests/Info.plist;

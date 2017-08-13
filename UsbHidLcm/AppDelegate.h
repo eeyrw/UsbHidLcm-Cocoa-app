@@ -7,8 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "UsbHidLcmDevice.h"
+#import "GCDAsyncSocket.h" // for TCP
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "DDDispatchQueueLogFormatter.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate,UsbHidLcmDeviceDelegate,NSTextViewDelegate>
+{
+    GCDAsyncSocket *asyncSocket;
+}
 
 
 @end
